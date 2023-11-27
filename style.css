@@ -1,0 +1,28 @@
+body {
+    margin: 4rem;
+    background-color:lightblue;
+  }
+  
+  .slider {
+    width: 100%;
+    max-width: 1140px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .slides {
+    position: relative;
+    transition: all linear .2s;
+    will-change: transform;
+      transform: translateZ(0);
+  }
+  
+  .slide {
+    float: left;
+      transform: translateZ(0);
+  }
+  
+  .slide img {
+    width: 100%;
+    display: block;
+  }
